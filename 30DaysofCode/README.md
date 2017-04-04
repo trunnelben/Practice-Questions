@@ -1,4 +1,4 @@
-#This is to start developing the habit of coding everyday - and review fundament$
+# This is to start developing the habit of coding everyday - and review fundamentals
 
 https://www.hackerrank.com/domains/tutorials/30-days-of-code
 
