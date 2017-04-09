@@ -10,21 +10,21 @@ class Student extends Person{
     *   @param scores - An array of integers denoting the Person's test scores.
     */
     // Write your constructor here
-    Student(String firstName, String lastName, int idNumber, int[] testScores){
-        super(firstName);
-        super(lastName);
-        super(idNumber);
-        this.testScores = scores;
+        Student(String firstName, String lastName, int id, int[] testScores){
+        super(firstName, lastName, id);
+        this.testScores = testScores;
     }
-    
-
     /*	
     *   Method Name: calculate
     *   @return A character denoting the grade.
     */
     // Write your method here
-    char calculate(int a){
-        int avg = this.testScores/2; // rough - need to change something about this
+    char calculate(){
+        int avg = 0;
+        for(int i = 0; i < this.testScores.length; i++){
+            avg += this.testScores[i];
+        }
+        avg = avg/(this.testScores.length);
         if(90 <= avg && avg <= 100){
             return 'O';
         }
