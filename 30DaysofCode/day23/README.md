@@ -1,3 +1,5 @@
+https://www.hackerrank.com/challenges/30-binary-trees
+
 Objective 
 Today, we're going further with Binary Search Trees. Check out the Tutorial tab for learning materials and an instructional video!
 
