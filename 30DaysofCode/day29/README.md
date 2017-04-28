@@ -1,4 +1,4 @@
-https://www.hackerrank.com/challenges/30-bitwise-and
+CHALLENGE: https://www.hackerrank.com/challenges/30-bitwise-and
 
 Objective 
 Welcome to the last day! Today, we're discussing bitwise operations. Check out the Tutorial tab for learning materials and an instructional video!
