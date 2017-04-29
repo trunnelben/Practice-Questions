@@ -6,7 +6,12 @@ import java.util.regex.*;
 
 public class Solution {
     static int maxPermutation(int n, int k){
-        return 5;
+        int max = Integer.MIN_VALUE;
+        int x = n; //what the perm value will actually be;
+        if(x > max){
+            max = x;
+        }
+        return max;
     }
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
