@@ -5,14 +5,21 @@ import java.math.*;
 import java.util.regex.*;
 
 public class Solution {
+    
     static int maxPermutation(int n, int k){
         int max = Integer.MIN_VALUE;
-        int x = n; //what the perm value will actually be;
-        if(x > max){
-            max = x;
+        //computes the 2 bitwise combinations
+        for(int i = 1; i <= n-1; i++){
+            for(int j = i+1; j <= n; j++){
+                int bitwiseValue = (i&j);
+                if(bitwiseValue > max && bitwiseValue < k){
+                    max = bitwiseValue;
+                }
+            }
         }
         return max;
     }
+    
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         int t = in.nextInt();
